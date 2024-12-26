@@ -1,0 +1,60 @@
+body{
+    background-color: #e6f8ff;
+    font-family: 'Arial';
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: 'Space Mono';
+    text-align: center;
+}
+
+li{
+    font-family: 'Space Mono';
+}
+
+button{
+    background-color: #6cbde6;
+    color: white;
+    font-size: 20px;
+    font-family: 'Space Mono';
+    padding: 12px 28px; 
+    border-radius: 8px;
+    border: 0px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #5ab0db;
+}
+
+img{
+    width: 300px;
+}
+
+.grid-4{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.polaroid{
+    width: 300px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.container{
+    font-family: 'Space Mono';
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
